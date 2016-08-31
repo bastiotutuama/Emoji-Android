@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rockerhieu.emojicon.example"
+    package="de.veedapp.android.emoji.example"
     android:versionCode="1"
     android:versionName="1.0">
 
