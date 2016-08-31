@@ -35,7 +35,7 @@
             android:background="@null"
             android:padding="@dimen/tab_padding"
             android:scaleType="center"
-            android:src="@drawable/ic_emoji_recent_light_activated" />
+            android:src="@drawable/ic_emoji_recents" />
 
         <ImageButton
             android:id="@+id/emojis_tab_1_people"
@@ -45,7 +45,7 @@
             android:background="@null"
             android:padding="@dimen/tab_padding"
             android:scaleType="center"
-            android:src="@drawable/ic_emoji_people_light_activated" />
+            android:src="@drawable/ic_emoji_smile" />
 
         <ImageButton
             android:id="@+id/emojis_tab_2_nature"
@@ -54,7 +54,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:scaleType="center"
-            android:src="@drawable/ic_emoji_nature_light_activated" />
+            android:src="@drawable/ic_emoji_flower" />
 
         <ImageButton
             android:id="@+id/emojis_tab_3_objects"
@@ -63,7 +63,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:scaleType="center"
-            android:src="@drawable/ic_emoji_objects_light_activated" />
+            android:src="@drawable/ic_emoji_bell" />
 
         <ImageButton
             android:id="@+id/emojis_tab_4_cars"
@@ -72,7 +72,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:scaleType="center"
-            android:src="@drawable/ic_emoji_places_light_activated" />
+            android:src="@drawable/ic_emoji_car" />
 
         <ImageButton
             android:id="@+id/emojis_tab_5_punctuation"
@@ -81,7 +81,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:scaleType="center"
-            android:src="@drawable/ic_emoji_symbols_light_activated" />
+            android:src="@drawable/ic_emoji_grid" />
 
         <ImageButton
             android:id="@+id/emojis_backspace"
@@ -89,7 +89,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@null"
-            android:src="@drawable/sym_keyboard_delete_holo_dark" />
+            android:src="@drawable/ic_emoji_backspace" />
     </LinearLayout>
 
     <View

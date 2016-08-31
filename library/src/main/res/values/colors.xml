@@ -32,4 +32,7 @@
   <!-- An accent color to mark the selected tab -->
   <color name="emojicons_selected_tab">#1976D2</color>
 
+  <!-- An accent color to mark the selected tab -->
+  <color name="emojicons_unselected_tab">#959595</color>
+
 </resources>

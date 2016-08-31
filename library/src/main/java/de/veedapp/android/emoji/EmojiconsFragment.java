@@ -80,7 +80,7 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.emojicons, container, false);
 
-        unselectedTabIconColor = getArguments().getInt(TAB_ICON_COLOR, getResources().getColor(R.color.emojicons_google_keyboard_item_tertiary));
+        unselectedTabIconColor = getArguments().getInt(TAB_ICON_COLOR, getResources().getColor(R.color.emojicons_unselected_tab));
         selectedTabIconColor = getArguments().getInt(TAB_ICON_COLOR_SELECTED, getResources().getColor(R.color.emojicons_selected_tab));
 
         final ViewPager emojisPager = (ViewPager) view.findViewById(R.id.emojis_pager);
