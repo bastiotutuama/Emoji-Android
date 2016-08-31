@@ -20,7 +20,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.rockerhieu.emojicon.example.MainActivity$PlaceholderFragment">
+    tools:context="de.veedapp.android.emoji.example.MainActivity$PlaceholderFragment">
 
 
     <CheckBox
@@ -30,14 +30,14 @@
         android:id="@+id/use_system_default"
         android:checked="false" />
 
-    <com.rockerhieu.emojicon.EmojiconTextView
+    <de.veedapp.android.emoji.EmojiconTextView
         android:id="@+id/txtEmojicon"
         android:text="@string/i_love_emojicon"
         emojicon:emojiconAlignment="baseline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.rockerhieu.emojicon.EmojiconEditText
+    <de.veedapp.android.emoji.EmojiconEditText
         android:id="@+id/editEmojicon"
         android:hint="@string/hint"
         android:text="@string/i_love_emojicon"
