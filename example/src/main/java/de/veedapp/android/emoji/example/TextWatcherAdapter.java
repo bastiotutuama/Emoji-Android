@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.veedapp.emojicon.example;
+package de.veedapp.android.emoji.example;
 
 import android.text.Editable;
 import android.text.TextWatcher;

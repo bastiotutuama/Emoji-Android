@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.veedapp.emojicon.example;
+package de.veedapp.android.emoji.example;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
