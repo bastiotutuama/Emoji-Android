@@ -1,12 +1,4 @@
-[![Android Gems](http://www.android-gems.com/badge/rockerhieu/emojicon.svg?branch=master)](http://www.android-gems.com/lib/rockerhieu/emojicon)
-
-![master on Travis CI](https://travis-ci.org/rockerhieu/emojicon.png?branch=master) ![emojicon on Maven Central](https://maven-badges.herokuapp.com/maven-central/com.rockerhieu.emojicon/library/badge.svg)
-
-## Emojicon
-
-Do you like emojis in Whatsapp, iMessage? [Emojicon](http://rockerhieu.github.io/emojicon/) is a library to implement such a thing for Android.
-
-Fore more information please see [the website](http://rockerhieu.github.io/emojicon/)
+## Android Emojis
 
 ## Example
 
@@ -38,7 +30,7 @@ Fore more information please see [the website](http://rockerhieu.github.io/emoji
 </LinearLayout>
 ```
 
-![image](https://github.com/rockerhieu/emojicon/raw/master/images/sample.jpg)
+![image](preview.png)
 
 _Note: You can change the size and alignment of emojis in XML layout through attribute `emojiconSize` and `emojiconAlignment`, respectively._
 
@@ -50,38 +42,21 @@ _Note: You can change the size and alignment of emojis in XML layout through att
 * `EmojiconGridFragment`: a fragment contains emojis in a `GridView` for the user to choose.
 * `EmojiconsFragment`: a fragment contains many set of emojis for the user to choose.
 
-## Building in IntelliJ
-
-Via Gradle:
-
-```
-compile 'com.rockerhieu.emojicon:library:<latest-version>'
-```
-
-## Building in Eclipse
-
-![Go home you're drunk](http://img2.wikia.nocookie.net/__cb20130819142928/cardfight/images/thumb/5/55/Go-home-youre-drunk.jpg/500px-Go-home-youre-drunk.jpg)
 
 ## Acknowledgements
 
 Emojicon is using emojis graphics from [emoji-cheat-sheet.com](https://github.com/arvida/emoji-cheat-sheet.com/tree/master/public/graphics/emojis).
 
-## Contributing
+## Credits
+Based on this [repository](http://rockerhieu.github.io/emojicon/).
 
-Please fork this repository and contribute back using
-[pull requests](https://github.com/rockerhieu/emojicon/pulls).
-
-Any contributions, large or small, major features, bug fixes, additional
-language translations, unit/integration tests are welcomed and appreciated
-but will be thoroughly reviewed and discussed.
+from Hieu Rocker (started 2014).
 
 ## License
 
 * [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ```
-Copyright 2014 Hieu Rocker
-
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
