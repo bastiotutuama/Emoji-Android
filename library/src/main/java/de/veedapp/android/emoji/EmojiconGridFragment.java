@@ -57,12 +57,12 @@ public class EmojiconGridFragment extends Fragment implements AdapterView.OnItem
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(de.veedapp.emojicon.R.layout.emojicon_grid, container, false);
+        return inflater.inflate(R.layout.emojicon_grid, container, false);
     }
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        GridView gridView = (GridView) view.findViewById(de.veedapp.emojicon.R.id.Emoji_GridView);
+        GridView gridView = (GridView) view.findViewById(R.id.Emoji_GridView);
         Bundle bundle = getArguments();
         if (bundle == null) {
             mData = People.DATA;

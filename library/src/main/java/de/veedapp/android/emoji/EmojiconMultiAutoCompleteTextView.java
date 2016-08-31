@@ -45,10 +45,10 @@ public class EmojiconMultiAutoCompleteTextView extends MultiAutoCompleteTextView
     }
 
     private void init(AttributeSet attrs) {
-        TypedArray a = getContext().obtainStyledAttributes(attrs, de.veedapp.emojicon.R.styleable.Emojicon);
-        mEmojiconSize = (int) a.getDimension(de.veedapp.emojicon.R.styleable.Emojicon_emojiconSize, getTextSize());
-        mEmojiconAlignment = a.getInt(de.veedapp.emojicon.R.styleable.Emojicon_emojiconAlignment, DynamicDrawableSpan.ALIGN_BASELINE);
-        mUseSystemDefault = a.getBoolean(de.veedapp.emojicon.R.styleable.Emojicon_emojiconUseSystemDefault, false);
+        TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.Emojicon);
+        mEmojiconSize = (int) a.getDimension(R.styleable.Emojicon_emojiconSize, getTextSize());
+        mEmojiconAlignment = a.getInt(R.styleable.Emojicon_emojiconAlignment, DynamicDrawableSpan.ALIGN_BASELINE);
+        mUseSystemDefault = a.getBoolean(R.styleable.Emojicon_emojiconUseSystemDefault, false);
         a.recycle();
         mEmojiconTextSize = (int) getTextSize();
         setText(getText());

@@ -62,8 +62,8 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(de.veedapp.emojicon.R.layout.emojicons, container, false);
-        final ViewPager emojisPager = (ViewPager) view.findViewById(de.veedapp.emojicon.R.id.emojis_pager);
+        View view = inflater.inflate(R.layout.emojicons, container, false);
+        final ViewPager emojisPager = (ViewPager) view.findViewById(R.id.emojis_pager);
         emojisPager.setOnPageChangeListener(this);
         // we handle recents
         EmojiconRecents recents = this;
@@ -78,12 +78,12 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
         emojisPager.setAdapter(mEmojisAdapter);
 
         mEmojiTabs = new View[6];
-        mEmojiTabs[0] = view.findViewById(de.veedapp.emojicon.R.id.emojis_tab_0_recents);
-        mEmojiTabs[1] = view.findViewById(de.veedapp.emojicon.R.id.emojis_tab_1_people);
-        mEmojiTabs[2] = view.findViewById(de.veedapp.emojicon.R.id.emojis_tab_2_nature);
-        mEmojiTabs[3] = view.findViewById(de.veedapp.emojicon.R.id.emojis_tab_3_objects);
-        mEmojiTabs[4] = view.findViewById(de.veedapp.emojicon.R.id.emojis_tab_4_cars);
-        mEmojiTabs[5] = view.findViewById(de.veedapp.emojicon.R.id.emojis_tab_5_punctuation);
+        mEmojiTabs[0] = view.findViewById(R.id.emojis_tab_0_recents);
+        mEmojiTabs[1] = view.findViewById(R.id.emojis_tab_1_people);
+        mEmojiTabs[2] = view.findViewById(R.id.emojis_tab_2_nature);
+        mEmojiTabs[3] = view.findViewById(R.id.emojis_tab_3_objects);
+        mEmojiTabs[4] = view.findViewById(R.id.emojis_tab_4_cars);
+        mEmojiTabs[5] = view.findViewById(R.id.emojis_tab_5_punctuation);
         for (int i = 0; i < mEmojiTabs.length; i++) {
             final int position = i;
             mEmojiTabs[i].setOnClickListener(new View.OnClickListener() {
@@ -93,7 +93,7 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
                 }
             });
         }
-        view.findViewById(de.veedapp.emojicon.R.id.emojis_backspace).setOnTouchListener(new RepeatListener(1000, 50, new View.OnClickListener() {
+        view.findViewById(R.id.emojis_backspace).setOnTouchListener(new RepeatListener(1000, 50, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mOnEmojiconBackspaceClickedListener != null) {
@@ -153,7 +153,7 @@ public class EmojiconsFragment extends Fragment implements ViewPager.OnPageChang
 
     @Override
     public void addRecentEmoji(Context context, Emojicon emojicon) {
-        final ViewPager emojisPager = (ViewPager) getView().findViewById(de.veedapp.emojicon.R.id.emojis_pager);
+        final ViewPager emojisPager = (ViewPager) getView().findViewById(R.id.emojis_pager);
         EmojiconRecentsGridFragment fragment = (EmojiconRecentsGridFragment) mEmojisAdapter.instantiateItem(emojisPager, 0);
         fragment.addRecentEmoji(context, emojicon);
     }

@@ -60,7 +60,7 @@ public class EmojiconRecentsGridFragment extends EmojiconGridFragment implements
                 .getInstance(view.getContext());
 
         mAdapter = new EmojiAdapter(view.getContext(), recents, mUseSystemDefault);
-        GridView gridView = (GridView) view.findViewById(de.veedapp.emojicon.R.id.Emoji_GridView);
+        GridView gridView = (GridView) view.findViewById(R.id.Emoji_GridView);
         gridView.setAdapter(mAdapter);
         gridView.setOnItemClickListener(this);
     }

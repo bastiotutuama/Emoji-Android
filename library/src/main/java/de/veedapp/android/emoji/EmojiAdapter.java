@@ -32,22 +32,22 @@ class EmojiAdapter extends ArrayAdapter<Emojicon> {
     private boolean mUseSystemDefault = false;
 
     public EmojiAdapter(Context context, List<Emojicon> data) {
-        super(context, de.veedapp.emojicon.R.layout.emojicon_item, data);
+        super(context, R.layout.emojicon_item, data);
         mUseSystemDefault = false;
     }
 
     public EmojiAdapter(Context context, List<Emojicon> data, boolean useSystemDefault) {
-        super(context, de.veedapp.emojicon.R.layout.emojicon_item, data);
+        super(context, R.layout.emojicon_item, data);
         mUseSystemDefault = useSystemDefault;
     }
 
     public EmojiAdapter(Context context, Emojicon[] data) {
-        super(context, de.veedapp.emojicon.R.layout.emojicon_item, data);
+        super(context, R.layout.emojicon_item, data);
         mUseSystemDefault = false;
     }
 
     public EmojiAdapter(Context context, Emojicon[] data, boolean useSystemDefault) {
-        super(context, de.veedapp.emojicon.R.layout.emojicon_item, data);
+        super(context, R.layout.emojicon_item, data);
         mUseSystemDefault = useSystemDefault;
     }
 
@@ -55,9 +55,9 @@ class EmojiAdapter extends ArrayAdapter<Emojicon> {
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = convertView;
         if (v == null) {
-            v = View.inflate(getContext(), de.veedapp.emojicon.R.layout.emojicon_item, null);
+            v = View.inflate(getContext(), R.layout.emojicon_item, null);
             ViewHolder holder = new ViewHolder();
-            holder.icon = (EmojiconTextView) v.findViewById(de.veedapp.emojicon.R.id.emojicon_icon);
+            holder.icon = (EmojiconTextView) v.findViewById(R.id.emojicon_icon);
             holder.icon.setUseSystemDefault(mUseSystemDefault);
             v.setTag(holder);
         }
