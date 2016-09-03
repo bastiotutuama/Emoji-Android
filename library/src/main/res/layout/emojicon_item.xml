@@ -24,6 +24,6 @@
         android:id="@+id/emojicon_icon"
         android:layout_width="48dip"
         android:layout_height="48dip"
-        emojicon:emojiconSize="32dip"
+        emojicon:emojiconSize="34dip"
         android:gravity="center" />
 </FrameLayout>
