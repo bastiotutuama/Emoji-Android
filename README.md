@@ -11,10 +11,13 @@ Based on several repositories:
 
 * [bastiotutuama/emojicon/](https://github.com/bastiotutuama/emojicon)
   * Fork from [rockerhieu.github.io/emojicon](http://rockerhieu.github.io/emojicon)
+  
 * [bastiotutuama/EmojiKeyboard](https://github.com/bastiotutuama/EmojiKeyboard)
   * Fork from [KyoSherlock/EmojiKeyboard](https://github.com/KyoSherlock/EmojiKeyboard)
+  
 * [bastiotutuama/emoji-library](https://github.com/bastiotutuama/emoji-library)
   * Fork from [edsilfer/emoji-keyboard](https://github.com/edsilfer/emoji-keyboard)
+  
 * [bastiotutuama/Emoji](https://github.com/bastiotutuama/Emoji)
   * Fork from [vanniktech/Emoji](https://github.com/vanniktech/Emoji)
 
