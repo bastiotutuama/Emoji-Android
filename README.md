@@ -1,56 +1,22 @@
 ## Android Emojis
 
-## Example
-
-```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:emojicon="http://schemas.android.com/apk/res-auto"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
-
-    <com.rockerhieu.emojicon.EmojiconTextView
-            android:id="@+id/txtEmojicon"
-            android:text="I \ue32d emojicon"
-            emojicon:emojiconAlignment="baseline"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    <com.rockerhieu.emojicon.EmojiconEditText
-            android:id="@+id/editEmojicon"
-            android:text="I \ue32d emojicon"
-            emojicon:emojiconSize="28sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <fragment
-            android:id="@+id/emojicons"
-            android:layout_width="match_parent"
-            android:layout_height="220dp"
-            class="com.rockerhieu.emojicon.EmojiconsFragment"/>
-</LinearLayout>
-```
-
-![image](preview.png)
-
-_Note: You can change the size and alignment of emojis in XML layout through attribute `emojiconSize` and `emojiconAlignment`, respectively._
+## Screenshots
 
 ## Usage
 
-* `EmojiconTextView`: a `TextView` which can render emojis.
-* `EmojiconEditText`: a `EditText` which can render emojis.
-* `EmojiconMultiAutoCompleteTextView`: a `MultiAutoCompleteTextView` which can render emojis.
-* `EmojiconGridFragment`: a fragment contains emojis in a `GridView` for the user to choose.
-* `EmojiconsFragment`: a fragment contains many set of emojis for the user to choose.
-
-
-## Acknowledgements
-
-Emojicon is using emojis graphics from [emoji-cheat-sheet.com](https://github.com/arvida/emoji-cheat-sheet.com/tree/master/public/graphics/emojis).
+#Todo
 
 ## Credits
-Based on this [repository](http://rockerhieu.github.io/emojicon/).
+Based on several repositories: 
 
-from Hieu Rocker (started 2014).
+* [bastiotutuama/emojicon/](https://github.com/bastiotutuama/emojicon)
+  * Fork from [rockerhieu.github.io/emojicon](http://rockerhieu.github.io/emojicon)
+* [bastiotutuama/EmojiKeyboard](https://github.com/bastiotutuama/EmojiKeyboard)
+  * Fork from [KyoSherlock/EmojiKeyboard](https://github.com/KyoSherlock/EmojiKeyboard)
+* [bastiotutuama/emoji-library](https://github.com/bastiotutuama/emoji-library)
+  * Fork from [edsilfer/emoji-keyboard](https://github.com/edsilfer/emoji-keyboard)
+* [bastiotutuama/Emoji](https://github.com/bastiotutuama/Emoji)
+  * Fork from [vanniktech/Emoji](https://github.com/vanniktech/Emoji)
 
 ## License
 
