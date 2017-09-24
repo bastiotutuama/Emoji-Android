@@ -1,31 +1,32 @@
 ## Android Emojis
 
-## Screenshots
+### Keyboard Preview
 
-![Screenshot 1](screenshot%201.png) ![Screenshot 2](screenshot%202.png)
-
-![Screenshot with screen guidelines 1](screen%20guideline%201.png) ![Screesnhot with screen guidelines 2](screen%20guideline%202.png)
+![Screenshot 1](images/screenshot%201.png) ![Screenshot 2](images/screenshot%202.png)
+--
+### Keyboard Preview with Screen Guidelines
+![Screenshot with screen guidelines 1](images/screen%20guideline%201.png) ![Screesnhot with screen guidelines 2](images/screen%20guideline%202.png)
 
 
 ## Usage
 
-#Todo
+##### Todo
 
 ## Credits
-Based on several repositories: 
+Based on several repositories:
 
 * [bastiotutuama/emojicon](https://github.com/bastiotutuama/emojicon)
   * Fork from [rockerhieu.github.io/emojicon](http://rockerhieu.github.io/emojicon)
-  
-  
+
+
 * [bastiotutuama/EmojiKeyboard](https://github.com/bastiotutuama/EmojiKeyboard)
   * Fork from [KyoSherlock/EmojiKeyboard](https://github.com/KyoSherlock/EmojiKeyboard)
-  
-  
+
+
 * [bastiotutuama/emoji-library](https://github.com/bastiotutuama/emoji-library)
   * Fork from [edsilfer/emoji-keyboard](https://github.com/edsilfer/emoji-keyboard)
-  
-  
+
+
 * [bastiotutuama/Emoji](https://github.com/bastiotutuama/Emoji)
   * Fork from [vanniktech/Emoji](https://github.com/vanniktech/Emoji)
 
