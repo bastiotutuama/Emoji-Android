@@ -1,6 +1,11 @@
 ## Android Emojis
 
 ## Screenshots
+![Screenshot 1](screen%20guideline%201.png)
+![Screesnhot 2](screen%20guideline%202.png)
+---
+![Screenshot with screen guidelines 1](screenshot%201.png)
+![Screenshot with screen guidelines 2](screenshot%202.png)
 
 ## Usage
 
